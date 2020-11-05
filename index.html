@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Лицензия</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="choose">
+                <div id="13">
+                    <input type="radio" name="license" id="1" value="13" checked>
+                    <label for="license">LICENSE PLAN#1</label>
+                    <span>$13 per license</span>
+                </div>
+                <div id="22">
+                    <input type="radio" name="license" id="2" value="22">
+                    <label for="license">LICENSE PLAN#2</label>
+                    <span>$22 per license</span>
+                </div>
+                <div id="34">
+                    <input type="radio" name="license" id="3" value="34">
+                    <label for="license">LICENSE PLAN#3</label>
+                    <span>$34 per license</span>
+                </div>
+            </div>
+            <div class="opt">
+                <label for="options">Number of licenses: </label>
+                <select name="options" id="options">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="btn">
+                <span class="price">TOTAL: <span >$<span id="price">340</span><sup>us</sup> </span></span>
+                <a class="button" href="#">BUY NOW</a> 
+
+                <span class="selected">Selected plan: #<span id="license_num">1</span></span>
+            </div>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
